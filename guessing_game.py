@@ -14,10 +14,10 @@ def main():
             won = True
             return
         else:
-                print ("That is not correct. Please try again")
+                print ("That is not correct. Please try again.")
     
     if not won:
-        print ("The correct number was {}.\nThank you for plaing.\n*** Game Over ***".format(number))
+        print ("The correct number was {}.\nThank you for playing.\n*** Game Over ***".format(number))
 
 if __name__ == '__main__':
     main()
